@@ -85,7 +85,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }}
         with:
-          name: Mutiara-Wrt_23.05.5
+          name: Erlkim-Wrt_23.05.5
           tag_name: v23.05.5
           draft: false
           prerelease: false
@@ -95,8 +95,8 @@ jobs:
             ### Mutiara-Wrt Information
             * Default IP: 192.168.1.1
             * Default username: root
-            * Default password: mutiara
-            * Default WIFI name: Mutiara-Wrt
+            * Default password: root
+            * Default WIFI name: OpenWRT
             * Default WIFI password: 12345678
             * Release date: ${{ env.date_time }}
             
